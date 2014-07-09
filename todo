@@ -1,0 +1,16 @@
+
+身為商家的管理者,我要能夠在後台上架我的東⻄,並設定能夠販賣
+ ✔ Administrator must have an backend. (/admin/product) @done (14-07-08 22:05)
+ ✔ Admin can update new product(s) to the backend. @done (14-07-08 22:05)
+ ✔ There are 1.title 2.description 3.quantity in the product info. @done (14-07-08 22:05)
+ ✔ Adding price to products @done (14-07-09 10:20)
+ ☐ Adding upload photos feature to products in the admin backend
+
+ 
+
+身為商家的管理者,我要能夠在後台設定權限,權限分成管理者以及消費者 
+ ☐ Backend only can be accessed by administrator
+ ☐ As an administrator, you have to log in as admin 
+ ☐ administrator is admin/user (both admin and user) 
+
+消費者可以在網站前台看到產品目錄並且購買
