@@ -1,0 +1,62 @@
+    <!-- Logo & Navigation starts -->
+      
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-2">
+            <!-- Logo -->
+            <div class="logo">
+             <h1><a href="index.html">OlsonKart</a></h1>
+            </div>
+           </div>
+          <div class="col-md-6 col-sm-5">
+            <!-- Navigation menu -->
+            <div class="navi">
+              <div id="ddtopmenubar" class="mattblackmenu">
+                <ul>
+                  <li><a href="#" rel="ddsubmenu1">Home</a>
+                    <ul id="ddsubmenu1" class="ddsubmenustyle">
+                      <li><a href="index.html">Revolution Slider</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" rel="ddsubmenu1">Account</a>
+                    <ul id="ddsubmenu1" class="ddsubmenustyle">
+                      <li><a href="account.html">My Account</a></li>
+
+                    </ul>
+                  </li>
+                  <li><a href="#" rel="ddsubmenu1">Pages</a>
+                    <ul id="ddsubmenu1" class="ddsubmenustyle">
+                      <li><a href="404.html">404</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" rel="ddsubmenu1">Computers</a>
+                    <ul id="ddsubmenu1" class="ddsubmenustyle">
+                      <li><a href="items.html">Desktop</a></li>
+    
+                    </ul>
+                  </li>                       
+                  <li><a href="contactus.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Dropdown NavBar -->
+            <div class="navis"></div>                   
+          </div>
+          <div class="col-md-4 col-sm-5">
+            <div class="kart-links">
+              <div class= "container">
+                <% if !current_user %>
+                  <%= link_to("Login", new_user_session_path) %>
+                <% else %>
+                  <%= link_to("Logout", destroy_user_session_path, :method => :delete) %>
+                <% end %>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <!-- Logo & Navigation ends -->
+      

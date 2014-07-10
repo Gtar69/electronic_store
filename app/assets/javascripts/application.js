@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
+//= require bootstrap.min
+//= require custom
+//= require ddlevelsmenu
+//= require filter
+//= require html5shiv
+//= require jquery.carouFredSel-6.2.1-packed
+//= require jquery.countdown.min
+//= require jquery.navgoco.min
+//= require jquery.themepunch.plugins.min
+//= require jquery.themepunch.revolution.min
+//= require respond.min

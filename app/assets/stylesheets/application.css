@@ -13,4 +13,12 @@
  *= require_tree .
  *= require_self
  *= require bootstrap
+ *= require animate.min
+ *= require bootstrap.min
+ *= require ddlevelsmenu-base 
+ *= require ddlevelsmenu-topbar
+ *= require font-awesome.min
+ *= require jquery.countdown
+ *= require settings
+ *= require style
  */
