@@ -1,0 +1,22 @@
+<div class="col-md-4 col-sm-6 col-xs-12">
+
+  <div class="item">
+    <!-- Item image -->
+    <div class="item-image">
+      <%= link_to product_path(product) do%>
+      <%= render_product_photo(product.default_photo)%> 
+      <% end %>
+    </div>
+    <!-- Item details -->
+    <div class="item-details">
+      <!-- Name -->
+      <h5><%=product.title%></a></h5>
+      <div class="clearfix"></div>   
+      
+      <div class="item-price pull-left"> $ <%= product.price%> NTD </div>
+      <!-- Add to cart -->
+      <div class="pull-right"><a href="#" class="btn btn-danger btn-sm">Add to Cart</a></div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>

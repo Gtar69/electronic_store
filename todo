@@ -10,12 +10,19 @@
  ✔ nav-bar implementation @done (14-07-09 16:42)
  ✔ Using simple_form instead of form @done (14-07-09 16:42)
  ☐ admin/products/show.html 
- ☐ admin/products/edit.html 
+ ✔ admin/products/edit.html @done (14-07-10 17:21)
  ✔ admin/products/index.html @done (14-07-09 22:49)
 
 身為商家的管理者,我要能夠在後台設定權限,權限分成管理者以及消費者 
- ☐ Backend only can be accessed by administrator
- ☐ As an administrator, you have to log in as admin 
- ☐ administrator is admin/user (both admin and user) 
+ ✔ Backend can only be accessed by administrator @done (14-07-10 17:43)
+ ✔ As an administrator, you have to log in as admin @done (14-07-10 17:44)
+ ✔ administrator is admin/user (both admin and user) @done (14-07-10 17:44)
 
-消費者可以在網站前台看到產品目錄並且購買
+消費者可以在網站前台看到產品並且購買然後結賬
+ ☐ Customer can look around any product of e-store that admin uploaded and add it to the cart. 
+    ✔ /products (index) @done (14-07-10 23:30)
+    ✔ /products/:id (show) @done (14-07-16 13:28)
+    ✔ /products/:id/add_to_cart @done (14-07-16 15:39)
+ ✔ Customer can watch all details in the cart. @done (14-07-16 16:26)
+ ☐ Customer can add different products to the cart and trigger an order.
+ ☐ 

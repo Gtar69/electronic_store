@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'bootstrap-sass'
 # 上傳圖片用
+gem 'bootstrap'
 gem 'carrierwave'
 # 修改圖片尺寸
 gem "mini_magick"
 
 gem 'simple_form'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

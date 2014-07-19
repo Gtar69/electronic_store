@@ -12,10 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap/
+//= require bootstrap/dropdown
+//= require bootstrap/alert
+//= require bootstrap.min
 //= require turbolinks
 //= require_tree .
-//= require bootstrap
-//= require bootstrap.min
+
 //= require custom
 //= require ddlevelsmenu
 //= require filter
